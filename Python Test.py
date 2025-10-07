@@ -9,7 +9,7 @@ dict1 = {
 attempts = 0
 while attempts < 3:
     user = input("Enter username: ")
-    pas = input("Enter password: ")
+    pas = input("Enter pass: ")
     if user == dict1["username"] and pas == dict1["password"]:
         print("Login successful!")
         print(dict1)
